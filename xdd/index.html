@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>cvluenze</title>
+		<meta name="keywords" content="web前端，个人简历，前端开发" />
+		<meta name="description" content="陆恩泽web前端工程师个人简历"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" user-scalable="no">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.8/jquery.fullPage.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="icon" href="image/favicon.ico">
+	</head>
+	<body>
+		<div id = "fullpage">
+			<div class ="section center active">
+			    <img src="image/avatar.jpg" id = "avatar">
+				<h1>陆恩泽</h1>
+				<p id ="substitle">认真.爱生活.偶尔幽默</p>
+				<h4>互联网前端工程师</h4>
+                <p class="mail"><a href="mailto:964078225@qq.com" >964078225@qq.com</a></p>						
+			</div>
+			<div class ="section center">
+				<h1>关于我</h1>
+				<ul class="message">
+					<li class="clearfix"><div class="mes-pic education"></div><div class="item">硕士研究生</div></li>
+					<li class="clearfix"><div class="mes-pic school"></div><div class="item">上海应用技术大学</div></li>
+					<li class="clearfix"><div class="mes-pic location"></div><div class="item">上海</div></li>
+					<li class="clearfix"><div class="mes-pic age"></div><div class="item">24</div></li>
+				</ul>
+				<p>我是一名自动化专业的应届生，曾在一家医疗检测设备的公司实习</p>
+				<p>对互联网很感兴趣，15年九月份开始学习前端相关方面的知识</p>
+					<p>想做一个安静的码农，专注于简洁的代码</p>
+			</div>
+			<div class ="section center">
+				<h1>项目与技能</h1>
+				<ul>
+					<li class="clearfix"><div class="same"><img src="image/blog.png"></div>
+					<div class="info"><div><a href="http://luenze.github.io/">静态博客</a></div><div>基于hexo+github的静态博客</div></div></li>
+					<li class="clearfix"><div class="same"><img src="image/jd.png"></div>
+					<div class="info"><div><a href="https://github.com/luenze/jd">京东首页</a></div><div>模仿京东首页实现的页面</div></div></li>
+					<li class="clearfix"><div class="same"><img src="image/cv.png"></div>
+					<div class="info"><div><a href="#">在线简历</a></div><div>基于fullpage.js的个人简历</div></div></li>
+					<li class="clearfix"><div class="same"><img src="image/blog.png"></div>
+					<div class="info"><div class="skill">个人技能</div><div>html+css+js jquery require.js gulp fullpage 我正在努力</div></div></li>
+					<div class="more">在github可以看到这些项目，我也在不断完善中<a href="https://github.com/luenze" class="github">github</a></div>
+				</ul>
+			</div>
+			
+            <div class="section center"><h1>特长与爱好</h1>
+            <p>爱好音乐，研一坚持自学吉他，<a href="http://changba.com/now/userPage.php?s=5ZrQ4qRC5KOZOj66lEZ9eQ">点这里</a>可以听到我录的歌（然而唱的不好听）</p>
+            <p>喜欢旅行和羽毛球</p>
+            <p>学过书法，是的<a href="image/writeart.jpg">点这里</a>也能看到我的作品</p>
+            </div>
+            <div class="section center"><h1>求职方向</h1>
+			<p>前端工程师</p>
+			<p>工作地点：上海/南京</p>
+			<p>让我在互联网的浪潮中成长！</p>
+			<p><a href="luenze.pdf">更详细简历下载</a></p>
+			</div>
+		</div>
+		<script type="text/javascript" src= "js/jquery-1.12.2.min.js"></script><!--jQuery在fullpage之前引用-->
+		<script type="text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.8/jquery.fullPage.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#fullpage").fullpage({
+                      continuousVertical:true,
+                      navigation:true,
+                      navigationPosition:"right",
+                      navigationTooltips:["盐值照","关于我","项目与技能","爱好和特长","求职方向"], 
+                      scrollOverflow:true,
+					});
+			});
+		</script>
+	</body
+</html>
