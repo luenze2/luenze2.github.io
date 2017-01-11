@@ -167,83 +167,14 @@ body {
   margin-top: 70px;
 }
 #trick{
-  margin-top: 35px;
+  margin-top: 45px;
+
 }
 #trick .avatar{
   text-decoration:none;
   color: #8b6a60;
   font-style: normal;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
+
 } 
-/*lez*/
-/*1.10*/
-.walker{
-    width:203px;
-    height:213px;
-    position:fixed;
-    left:72%;
-    top:50%;
-    border-radius: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-}
-.fadeInLong {
-  -webkit-animation: fadeIn 9s ease 0s 1 both;
-  -ms-animation: fadeIn 9s ease 0s 1 both;
-  -moz-animation: fadeIn 9s ease 0s 1 both;
-  -o-animation: fadeIn 9s ease 0s 1 both;
-          animation: fadeIn 9s ease 0s 1 both;
-          background:url(../image/01.jpg) no-repeat center center / cover;
-}
-.fadeOutLong {
-  -webkit-animation: fadeOut 9s ease 0s 1 both;
-  -ms-animation: fadeOut 9s ease 0s 1 both;
-  -moz-animation: fadeOut 9s ease 0s 1 both;
-  -o-animation: fadeOut 9s ease 0s 1 both;
-          animation: fadeOut 9s ease 0s 1 both;
-          background:url(../image/02.jpg) no-repeat center center / cover;
-}
-@-webkit-keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-/*1.10*/
